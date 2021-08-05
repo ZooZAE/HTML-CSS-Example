@@ -1,0 +1,1104 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light';
+    src: local('ITC Avant Garde Gothic Std Extra Light'), url("./../fonts/ITCAvantGardeStdXLt.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light';
+    src: local('ITC Avant Garde Gothic Std Extra Light'), url('./../fonts/ITCAvantGardeStdXLt.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light Condensed';
+    src: local('ITC Avant Garde Gothic Std Extra Light Condensed'), url('./../fonts/ITCAvantGardeStdXLtCn.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light Condensed Oblique';
+    src: local('ITC Avant Garde Gothic Std Extra Light Condensed Oblique'), url('./../fonts/ITCAvantGardeStdXLtCnObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light Oblique';
+    src: local('ITC Avant Garde Gothic Std Extra Light Oblique'), url('./../fonts/ITCAvantGardeStdXLtObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    src: local('ITC Avant Garde Gothic Std Book'), url('./../fonts/ITCAvantGardeStdBk.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book Condensed';
+    src: local('ITC Avant Garde Gothic Std Book Condensed'), url('./../fonts/ITCAvantGardeStdBkCn.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book Condensed Oblique';
+    src: local('ITC Avant Garde Gothic Std Book Condensed Oblique'), url('./../fonts/ITCAvantGardeStdBkCnObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book Oblique';
+    src: local('ITC Avant Garde Gothic Std Book Oblique'), url('./../fonts/ITCAvantGardeStdBkObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    src: local('ITC Avant Garde Gothic Std Medium'), url('./../fonts/ITCAvantGardeStdMd.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium Condensed';
+    src: local('ITC Avant Garde Gothic Std Medium Condensed'), url('./../fonts/ITCAvantGardeStdMdCn.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium Condensed Oblique';
+    src: local('ITC Avant Garde Gothic Std Medium Condensed Oblique'), url('./../fonts/ITCAvantGardeStdMdCnObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium Oblique';
+    src: local('ITC Avant Garde Gothic Std Medium Oblique'), url('./../fonts/ITCAvantGardeStdMdObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi';
+    src: local('ITC Avant Garde Gothic Std Demi'), url('./../fonts/ITCAvantGardeStdDemi.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
+    src: local('ITC Avant Garde Gothic Std Demi Condensed'), url('./../fonts/ITCAvantGardeStdDemiCn.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi Condensed Oblique';
+    src: local('ITC Avant Garde Gothic Std Demi Condensed Oblique'), url('./../fonts/ITCAvantGardeStdDemiCnObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi Oblique';
+    src: local('ITC Avant Garde Gothic Std Demi Oblique'), url('./../fonts/ITCAvantGardeStdDemiObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    src: local('ITC Avant Garde Gothic Std Bold'), url('./../fonts/ITCAvantGardeStdBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold Condensed';
+    src: local('ITC Avant Garde Gothic Std Bold Condensed'), url('./../fonts/ITCAvantGardeStdBoldCn.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold Condensed Oblique';
+    src: local('ITC Avant Garde Gothic Std Bold Condensed Oblique'), url('./../fonts/ITCAvantGardeStdBoldCnObl.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold Oblique';
+    src: local('ITC Avant Garde Gothic Std Bold Oblique'), url('./../fonts/ITCAvantGardeStdBoldObl.woff') format('woff');
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light';
+    background-color: #000;
+}
+
+* {
+    outline: 0 !important;
+}
+
+/* General */
+    .fp-viewing-0 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #fff !important;
+    }
+
+    .fp-viewing-0 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(255, 255, 255, 0.651) !important;
+    }
+
+    .fp-viewing-1 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #000 !important;
+    }
+
+    .fp-viewing-1 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(0, 0, 0, 0.651) !important;
+    }
+
+    .fp-viewing-2 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #fff !important;
+    }
+
+    .fp-viewing-2 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(255, 255, 255, 0.651) !important;
+    }
+
+    .fp-viewing-3 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #fff !important;
+    }
+
+    .fp-viewing-3 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(255, 255, 255, 0.651) !important;
+    }
+
+    .fp-viewing-4 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #000 !important;
+    }
+
+    .fp-viewing-4 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(0, 0, 0, 0.651) !important;
+    }
+
+    .fp-viewing-5 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #fff !important;
+    }
+
+    .fp-viewing-5 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(255, 255, 255, 0.651) !important;
+    }
+
+    .fp-viewing-6 #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+        background-color: #000 !important;
+    }
+
+    .fp-viewing-6 #fp-nav ul li span, #fp-nav ul li:hover span, .fp-slidesNav ul li span, .fp-slidesNav ul li:hover span {
+        background-color: rgba(0, 0, 0, 0.651) !important;
+    }
+/* End of General */
+
+/* Navbar */
+    .sample-logo {
+        width: 200px;
+        height: auto;
+    }
+
+    .navigation ul li a {
+        font-family: 'ITC Avant Garde Gothic Std Book';
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: none;
+        font-size: 20px;
+    }
+
+    .navigation ul li a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.2em;
+        text-underline-offset: 10px;
+    }
+
+    .navigation ul li:hover {
+        transform: scale(1.2);
+    }
+
+    .navigation .active {
+        text-decoration: underline !important;
+        text-decoration-thickness: 0.2em !important;
+        text-underline-offset: 10px;
+    }
+
+    .menu ul li a {
+        color: var(--white);
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+    }
+
+    #fp-nav {
+        top: 40%;
+    }
+
+    .navigation ul li a {
+        color: #fff !important;
+    }
+
+    .fp-viewing-0 .burger-span .navigation ul li a {
+        color: #fff !important;
+    }
+
+    .fp-viewing-1 .navigation ul li a {
+        transition-delay: .5s;
+        color: #000 !important;
+    }
+
+    .fp-viewing-2 .navigation ul li a {
+        color: #fff !important;
+    }
+
+    .fp-viewing-3 .navigation ul li a {
+        color: #fff !important;
+    }
+
+    .fp-viewing-4 .navigation ul li a {
+        transition-delay: .5s;
+        color: #000 !important;
+    }
+
+    .fp-viewing-5 .navigation ul li a {
+        color: #fff !important;
+    }
+
+    .fp-viewing-6 .navigation ul li a {
+        transition-delay: .5s;
+        color: #000 !important;
+    }
+
+    @media (max-width:991px) {
+        .fp-viewing-1 .burger span {
+            background: #000;
+        }
+
+        .fp-viewing-4 .burger span {
+            background: #000;
+        }
+
+        .fp-viewing-6 .burger span {
+            background: #000;
+        }
+
+        .burger span {
+            display: block;
+            width: 35px;
+            height: 2px;
+            background: #fff;
+        }
+
+        .burger span:nth-child(2) {
+            margin: 7px 0
+        }
+
+        .burger.active span:nth-child(1) {
+            transform: translateY(9px) rotate(45deg);
+            transition: all .3s;
+            background-color: #fff;
+        }
+
+        .burger.active span:nth-child(2) {
+            opacity: 0;
+            background-color: #fff;
+
+        }
+
+        .burger.active span:nth-child(3) {
+            transform: translateY(-9px) rotate(-45deg);
+            transition: all .3s;
+            background-color: #fff;
+        }
+
+        .burger.white span {
+            background: #fff;
+        }
+
+        .menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            background: black;
+            transition: all .5s;
+            z-index: 999;
+        }
+
+        .menu ul li {
+            opacity: 0;
+            color: #fff;
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+            -webkit-transition: all .3s;
+            transition: all .3s
+        }
+
+        .menu ul li:nth-child(1) {
+            -webkit-transition-delay: .5s;
+            transition-delay: .5s
+        }
+
+        .menu ul li:nth-child(2) {
+            -webkit-transition-delay: .4s;
+            transition-delay: .4s
+        }
+
+        .menu ul li:nth-child(3) {
+            -webkit-transition-delay: .3s;
+            transition-delay: .3s
+        }
+
+        .menu ul li:nth-child(4) {
+            -webkit-transition-delay: .2s;
+            transition-delay: .2s
+        }
+
+        .menu ul li:nth-child(5) {
+            -webkit-transition-delay: .1s;
+            transition-delay: .1s
+        }
+
+        .menu ul li:nth-child(6) {
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+            left: 0;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s
+        }
+
+        .menu.active {
+            opacity: 1;
+            visibility: visible
+        }
+
+        .menu.active ul li {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden
+        }
+
+        .menu.active ul li:nth-child(1) {
+            -webkit-transition-delay: .5s;
+            transition-delay: .5s
+        }
+
+        .menu.active ul li:nth-child(2) {
+            -webkit-transition-delay: .6s;
+            transition-delay: .6s
+        }
+
+        .menu.active ul li:nth-child(3) {
+            -webkit-transition-delay: .7s;
+            transition-delay: .7s
+        }
+
+        .menu.active ul li:nth-child(4) {
+            -webkit-transition-delay: .8s;
+            transition-delay: .8s
+        }
+
+        .menu.active ul li:nth-child(5) {
+            -webkit-transition-delay: .9s;
+            transition-delay: .9s
+        }
+
+        .menu.active ul li:nth-child(6) {
+            -webkit-transition-delay: 1s;
+            transition-delay: 1s
+        }
+    }
+/* End of Navbar */
+
+/* Main Page */
+    #home {
+        color: var(--white);
+    }
+
+    .header-title {
+        font-size: 90px;
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+    }
+
+    /* Mobile */
+    @media (max-width: 400px) {
+
+        .header-title {
+            font-size: 25px;
+            font-family: 'ITC Avant Garde Gothic Std Bold';
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 700px) {
+        .header-title {
+            font-size: 25px;
+            font-family: 'ITC Avant Garde Gothic Std Bold';
+        }
+    }
+    /* End of Mobile */
+
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1023px)  { 
+        .socials {
+            display: none;
+        }
+
+        .header-title {
+            font-size: 50px;
+            font-family: 'ITC Avant Garde Gothic Std Bold';
+        }
+
+        #of {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1119px)  { 
+        .socials {
+            display: none;
+        }
+
+        .header-title {
+            font-size: 70px;
+            font-family: 'ITC Avant Garde Gothic Std Bold';
+        }
+
+        #of {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+    }
+    /* End of Tablets */
+/* Main Page */
+
+/* About us */
+    #about-us {
+        background-color: #fff;
+    }
+
+    #about-us-left {
+        margin-top: 150px;
+    }
+
+    #about-us-title {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        background-image: linear-gradient(to right,#10408F, #287CE0);
+        color: white;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 20px;
+        margin-top: 40px;
+        width: 85%;
+    }
+
+    #about-us-text {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        color: #000;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    #about-us-more {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        font-size: 20px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        color: #000 !important;
+        padding: 5px 20px;
+        text-decoration: none !important;
+        margin-left: 15px !important;
+    }
+
+    .hidden-text {
+        color: transparent;
+    }
+
+    /* Mobile */
+    @media (max-width: 400px) {
+        #about-us-title {
+            padding: 10px;
+            width: 80%;
+            margin-top: 0px;
+            font-size: 30px;
+        }
+    
+        #about-us-text {
+            font-size: 15px;
+            width: 70%;
+            padding: 5px;
+        }
+    
+        #about-us-more {
+            font-size: 10px;
+            padding: 5px 20px;
+            margin-left: 10px !important;
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 700px) {
+        #about-us-title {
+            padding: 10px;
+            width: 80%;
+            margin-top: 0px;
+            font-size: 30px;
+        }
+    
+        #about-us-text {
+            font-size: 15px;
+            width: 70%;
+            padding: 5px;
+        }
+    
+        #about-us-more {
+            font-size: 10px;
+            padding: 5px 20px;
+            margin-left: 10px !important;
+        }
+    }
+    /* End of Mobile */
+
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1023px)  { 
+        #about-us-title {
+            padding: 20px;
+            width: 90%;
+            margin-top: 0px;
+            font-size: 40px;
+        }
+    
+        #about-us-text {
+            font-size: 20px;
+            width: 80%;
+            padding: 5px;
+        }
+    
+        #about-us-more {
+            font-size: 20px;
+            padding: 5px 20px;
+            margin-left: 10px !important;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1119px)  { 
+        #about-us-title {
+            padding: 20px;
+            width: 90%;
+            margin-top: 0px;
+            font-size: 40px;
+        }
+    
+        #about-us-text {
+            font-size: 25px;
+            width: 80%;
+            padding: 5px;
+        }
+    
+        #about-us-more {
+            font-size: 25px;
+            padding: 5px 20px;
+            margin-left: 10px !important;
+        }
+
+        #about-us-image {
+            padding: 100px;
+        }
+    }
+    /* End of Tablets */
+/* End of about us */
+
+/* Services */
+    video {
+        border-radius: 50px;
+    }
+
+    #our-services-title {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        background: #fff;
+        color: #10408F;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 20px;
+        margin-top: 40px;
+        width: 45%;
+    }
+
+    .card {
+        border-radius: 50px;
+        display: block;
+        box-shadow: #10408F 0px 4px 20px 0px;
+        height: 230px;
+    }
+
+    .card-img-top {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .card-text {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        color: #10408F;
+        font-size: 20px;
+    }
+
+    #services-more {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        font-size: 20px;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 20px;
+        color: #000 !important;
+        padding: 5px 20px;
+        text-decoration: none !important;
+        margin-left: 15px !important;
+    }
+
+    /* Mobile */
+    @media (max-width: 400px) {
+        #our-services-title {
+            width: 80%;
+            font-size: 30px;
+        }
+    
+        .card {
+            height: 210px;
+        }
+
+        video {
+            width: 80%;
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 700px) {
+        #our-services-title {
+            width: 80%;
+            font-size: 30px;
+        }
+    
+        .card {
+            height: 210px;
+        }
+
+        video {
+            width: 80%;
+        }
+    }
+    /* End of Mobile */
+
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1023px)  { 
+        video {
+            width: 80%;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1119px)  { 
+        video {
+            width: 80%;
+        }
+    }
+    /* End of Tablets */
+/* End of Services */
+
+/* Testimonials */
+    .glider-contain {
+        width: 50% !important;
+    }
+
+    .glider-prev {
+        color: #10408F !important;
+        font-size: 70px !important;
+    }
+
+    .glider-next {
+        color: #10408F !important;
+        font-size: 70px !important;
+    }
+
+    #testimonials {
+        background-color: #fff;
+    }
+
+    #testimonials-title {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        background-image: linear-gradient(to right,#10408F, #287CE0);
+        color: white;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    .cards {
+        position: relative;
+        display: flex;
+        width: 300px;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #d2d2dc;
+        border-radius: 11px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+        box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+        margin: 0px 20px;
+    }
+   
+    .cards .cards-body {
+        padding: 1rem 1rem
+    }
+   
+    .cards-body {
+        flex: 1 1 auto;
+        padding: 1.25rem
+    }
+
+    .profiles {
+        margin-top: 16px;
+        margin-left: 11px
+    }
+   
+    .profiles-pic {
+        width: 58px
+    }
+   
+    .cust-name {
+        font-size: 18px
+    }
+   
+    .cust-profession {
+        font-size: 10px
+    }
+
+    /* Mobile */
+    @media (max-width: 400px) {
+        .glider-contain {
+            width: 80% !important;
+        }
+
+        #testimonials-title {
+            width: 80%;
+            font-size: 30px;
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 700px) {
+        .glider-contain {
+            width: 80% !important;
+        }
+
+        #testimonials-title {
+            width: 80%;
+            font-size: 30px;
+        }
+    }
+    /* End of Mobile */
+
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1023px)  { 
+        .glider-contain {
+            width: 80% !important;
+        }
+
+        #testimonials-title {
+            width: 80%;
+            font-size: 30px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1119px)  { 
+        .glider-contain {
+            width: 80% !important;
+        }
+
+        #testimonials-title {
+            width: 80%;
+            font-size: 30px;
+        }
+    }
+    /* End of Tablets */
+/* End of Testimonials */
+
+/* Subscribe */
+    #subscribe-title {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        color: #fff;
+    }
+
+    #input-subscribe {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        background: transparent;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: white;
+        width: 80%;
+    }
+
+    #input-subscribe::placeholder {
+        color: white;
+        opacity: 0.5;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #input-subscribe:focus {
+        border-color: #f00 !important;
+    }
+
+    #subscribe-button {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        outline: none;
+        background: transparent;
+        border: 2px white solid;
+        color: white;
+        border-radius: 50px;
+        width: 150px;
+        font-size: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Mobile */
+    @media (max-width: 400px) {
+        #subscribe-title {
+            font-size: 20px;
+        }
+    
+        #input-subscribe {
+            width: 80%;
+        }
+    
+        #input-subscribe::placeholder {
+            font-size: 20px;
+        }
+    
+        #subscribe-button {
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 700px) {
+        #subscribe-title {
+            font-size: 20px;
+        }
+    
+        #input-subscribe {
+            width: 80%;
+        }
+    
+        #input-subscribe::placeholder {
+            font-size: 20px;
+        }
+    
+        #subscribe-button {
+            font-size: 20px;
+        }
+    }
+    /* End of Mobile */
+
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1023px)  { 
+        #subscribe-title {
+            font-size: 20px;
+        }
+    
+        #input-subscribe {
+            width: 80%;
+        }
+    
+        #input-subscribe::placeholder {
+            font-size: 20px;
+        }
+    
+        #subscribe-button {
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1119px)  { 
+        #subscribe-title {
+            font-size: 20px;
+        }
+    
+        #input-subscribe {
+            width: 80%;
+        }
+    
+        #input-subscribe::placeholder {
+            font-size: 20px;
+        }
+    
+        #subscribe-button {
+            font-size: 20px;
+        }
+    }
+    /* End of Tablets */
+/* End of Subscribe */
+
+/* Contact US */
+    #contact-us {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        background-color: #fff;
+        color: #fff;
+    }
+
+    #contact-us-title {
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        background-image: linear-gradient(to right,#10408F, #287CE0);
+        color: white;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 20px;
+        margin-bottom: 30px;
+        width: 45%;
+    }
+
+    .social-media {
+        margin-top: 50px;
+    }
+
+    .social {
+        width: 100px;
+    }
+
+    .mail {
+        font-size: 45px !important;
+        font-family: 'ITC Avant Garde Gothic Std Bold';
+        color: #10408F;
+    }
+
+    .mail:hover {
+        text-decoration: none !important;
+    }
+
+    /* Mobile */
+    @media (max-width: 400px) {
+        .contact-us-container {
+            height: 100vh;
+        }
+
+        #contact-us-title {
+            width: 80%;
+            font-size: 25px;
+            margin-top: 120px;
+        }
+
+        .mail > img {
+            width: 50px;
+        }
+    
+        .social-media {
+            margin-top: 150px;
+        }
+    
+        .social {
+            width: 50px;
+        }
+    
+        .mail {
+            font-size: 15px !important;
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 700px) {
+        .contact-us-container {
+            height: 100vh;
+        }
+
+        #contact-us-title {
+            width: 80%;
+            font-size: 25px;
+            margin-top: 120px;
+        }
+
+        .mail > img {
+            width: 50px;
+        }
+    
+        .social-media {
+            margin-top: 150px;
+        }
+    
+        .social {
+            width: 50px;
+        }
+    
+        .mail {
+            font-size: 15px !important;
+        }
+    }
+    /* End of Mobile */
+
+    /* Tablets */
+    @media (min-width: 768px) and (max-width: 1023px)  { 
+        .contact-us-container {
+            height: 100vh;
+        }
+
+        #contact-us-title {
+            width: 80%;
+            font-size: 40px;
+            margin-top: 120px;
+        }
+
+        .mail > img {
+            width: 80px;
+        }
+    
+        .social-media {
+            margin-top: 200px;
+        }
+    
+        .social {
+            width: 80px;
+        }
+    
+        .mail {
+            font-size: 30px !important;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1119px)  { 
+        .contact-us-container {
+            height: 100vh;
+        }
+
+        #contact-us-title {
+            width: 80%;
+            font-size: 40px;
+            margin-top: 120px;
+        }
+
+        .mail > img {
+            width: 100px;
+        }
+    
+        .social-media {
+            margin-top: 350px;
+        }
+    
+        .social {
+            width: 100px;
+        }
+    
+        .mail {
+            font-size: 50px !important;
+        }
+    }
+    /* End of Tablets */
+/* End of Contact Us */
